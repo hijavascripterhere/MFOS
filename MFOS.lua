@@ -3,7 +3,6 @@ local start = io.read()
 if start == "y" then
   --screens--
   local hud = {
-
     main = {
       output = [[
       |######################################################################|
