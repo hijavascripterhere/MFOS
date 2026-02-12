@@ -336,15 +336,8 @@ if start == "y" then
 
 
         if currentui == "main" then
-          local clicking = false
           if input == "" then
-            if clicking then
-              return
-            end
-            clicking = true
             stats1.cash = stats1.cash + stats1.cashperclick
-            wait(0.5)
-            clicking = false
           end
           if input == "s" then
             currentui = "shop"
