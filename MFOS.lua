@@ -327,6 +327,9 @@ if start == "y" then
         currentscreen = "CSGO"
       end
     elseif currentscreen == "CSGO" then
+      if input == " " then
+        currentscreen = "main"
+      end
       while currentscreen == "CSGO" do
         showui(currentui)
         print("cash: " .. stats1.cash)
